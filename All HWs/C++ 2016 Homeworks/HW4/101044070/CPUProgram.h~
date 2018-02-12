@@ -1,0 +1,41 @@
+
+#ifndef CPUPROGRAM_H__
+#define CPUPROGRAM_H__
+
+#include<iostream>
+#include<string>
+#include<sstream>
+
+
+using namespace std;
+using std::string;
+
+
+
+class CPUProgram {
+    
+    public:
+        CPUProgram();
+        CPUProgram(int option);
+        CPUProgram(string inputFileName);
+        int size();        
+        void ReadFile(string inputFileName);
+        string getLine(int returnProgLine);
+       
+        void setSizeOfFile() {numberOfLine=0;}
+        
+     
+   
+    private:
+        
+        string storeAllRegisters[200];
+        int numberOfLine;
+        int chooseOption;
+      
+};
+
+
+
+
+#endif
+

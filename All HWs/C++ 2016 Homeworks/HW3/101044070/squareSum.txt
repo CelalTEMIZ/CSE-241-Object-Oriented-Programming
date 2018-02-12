@@ -1,0 +1,9 @@
+MOV R2, 11      ;Start value adds the squares of integers between 1 and 10
+SUB R2, 1       ;R2 is loop value to max integer num
+MOV R4, R2      ;R2=10,9,8,7,6,5,4,3,2,1
+ADD R3, R2      ;Result R3, Sum quares of integers between 1 and 10
+SUB R4, 1       ;Decrement to value to end of loop
+JMP R4, 2       ;if R4 != 0 then go to the line 2
+JMP R2, 9       ;if R2 != 0 then go to the line 9
+JMP 4           ;Return start of loop and add sum value 
+HLT             ;Finish the program

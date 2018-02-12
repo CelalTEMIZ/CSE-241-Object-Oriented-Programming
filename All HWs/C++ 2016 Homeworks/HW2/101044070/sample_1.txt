@@ -1,0 +1,14 @@
+MOV R1, 10
+MOV R2, 3      
+MOV R3, 30
+MOV R1, #20
+ADD R1, #20
+SUB R3, #20   
+PRN #20
+MOV #20, R2
+MOV #30, 40
+PRN #30
+SUB R3, R1
+PRN R1 
+SUB R2, 1          
+HLT             

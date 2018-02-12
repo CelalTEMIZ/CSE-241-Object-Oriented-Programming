@@ -1,0 +1,8 @@
+Your Initial Board
+  a b c d e f 
+1 . . . . . . 
+2 . . . . . . 
+3 . . X O . . 
+4 . . O X . . 
+5 . . . . . . 
+6 . . . . . . 

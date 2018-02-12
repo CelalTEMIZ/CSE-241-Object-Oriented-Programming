@@ -1,0 +1,65 @@
+Script started on Çrş 13 Ara 2017 23:31:45 +03
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ make
+g++ -std=c++11 GTUSet.cpp GTUMap.cpp main.cpp -o exe
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ ./exe 
+
+< Set Container Testing >
+
+-- Set1 Testing --
+Before Set1 Elements : 1 8 23 3456 
+Before Set1 size : 4
+Called eraseFunction to given index !
+After Set1 Elements > Iterator Testing : 1 8 3456 
+After Set1 size : 3
+CountFunction Result : 1
+
+Set1 Elements : 1 8 3456 
+Set3 Elements : 1 3456 
+SetIntersection Result to Set1 and Set3 : 1 3456 
+
+-- Set2 Testing--
+Before Set2 Elements : a b d f s 
+Before Set2 size : 5
+Called eraseFunction to given index !
+Iterator Testing > After Set2 Elements : a b s 
+After Set2 size : 3
+This is not an element of set !
+Find function is succesfull !! 
+Last Set2 size  : 0
+
+------------------------------------------------
+
+< Map Container Testing >
+
+-- Map1 Testing --
+Before Map 1 Elements > Iterator Testing : 
+1 - c
+22 - s
+333 - e
+Before Map1 size : 3
+Called eraseFunction to given index !
+After  Map1 size : 2
+After Map1 Elements : 
+22 s
+333 e
+
+
+-- Map2 Testing --
+Before Map2 Elements :
+8 - 3.6
+11 - 5.21
+9 - 2.5
+10 - 3.38
+Before Map2 size : 4
+This is an element of map !
+Called eraseFunction to given index !
+After Map2 Elements :
+8 3.6
+9 2.5
+10 3.38
+Find function is succesfull !! 
+Last Map2 size   : 0
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ exit
+exit
+
+Script done on Çrş 13 Ara 2017 23:31:57 +03

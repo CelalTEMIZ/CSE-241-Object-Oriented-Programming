@@ -1,0 +1,239 @@
+Script started on Sal 07 Kas 2017 20:04:31 +03
+]0;cse241@cse241-VirtualBox: ~/Desktop/HW04[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/HW04[00m$ ./exe <r2 
+
+Single Mode Game : S , Multiplayer Game Mode : M
+Select Game Mode : 
+Enter Game File  : 
+P - User1 vs User2
+C - User  vs Computer
+
+Enter Game Selection : 
+
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ *  *  *  *  *  *  *  *  *  *  *  *    
+ *  *  *  *  *  *  *  *  *  *  *  *  * 
+
+LivingCell: 0
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 1 (X) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ *  *  *  *  *  *  *  *  *  *  *  *    
+ X  *  *  *  *  *  *  *  *  *  *  *  * 
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 2 (O) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ *  *  *  *  *  *  *  *  *  *  *  *    
+ X  O  *  *  *  *  *  *  *  *  *  *  * 
+
+LivingCell: 2
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 1 (X) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ *  X  *  *  *  *  *  *  *  *  *  *    
+ X  O  *  *  *  *  *  *  *  *  *  *  * 
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 2 (O) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ *  X  *  *  *  *  *  *  *  *  *  *    
+ X  O  O  *  *  *  *  *  *  *  *  *  * 
+
+LivingCell: 4
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 1 (X) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ *  X  X  *  *  *  *  *  *  *  *  *    
+ X  O  O  *  *  *  *  *  *  *  *  *  * 
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 2 (O) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  *  *  *  *  *  *  *  *  *       
+ O  X  X  *  *  *  *  *  *  *  *  *    
+ X  O  O  *  *  *  *  *  *  *  *  *  * 
+
+LivingCell: 6
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 1 (X) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  X  *  *  *  *  *  *  *  *       
+ O  X  X  *  *  *  *  *  *  *  *  *    
+ X  O  O  *  *  *  *  *  *  *  *  *  * 
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 2 (O) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  X  *  *  *  *  *  *  *  *       
+ O  X  X  *  *  *  *  *  *  *  *  *    
+ X  O  O  O  *  *  *  *  *  *  *  *  * 
+
+LivingCell: 8
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 1 (X) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  X  *  *  *  *  *  *  *  *       
+ O  X  X  X  *  *  *  *  *  *  *  *    
+ X  O  O  O  *  *  *  *  *  *  *  *  * 
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 2 (O) Movement : 
+
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *  *  *          
+ *  *  X  O  *  *  *  *  *  *  *       
+ O  X  X  X  *  *  *  *  *  *  *  *    
+ X  O  O  O  *  *  *  *  *  *  *  *  * 
+
+LivingCell: 10
+
+> Enter the 'LOAD yourTextFile' command to load the new game.
+> Enter the 'SAVE yourTextFile' command to save the current game.
+> Continue the game use positions such as A.B.C.D.E.F.G.H.I.J.K.L.M.
+
+User 1 (X) Movement : 
+ A  B  C  D  E  F  G  H  I  J  K  L  M 
+       *  *                            
+       *  *  *  *  *  *                
+       *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  *  *  *  *  *                
+ *  *  *  x  *  *  *  *  *  *          
+ *  *  x  O  *  *  *  *  *  *  *       
+ O  x  X  X  *  *  *  *  *  *  *  *    
+ x  O  O  O  *  *  *  *  *  *  *  *  * 
+
+Game Over ..
+Winner --> User 1 (X)
+]0;cse241@cse241-VirtualBox: ~/Desktop/HW04[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/HW04[00m$ exit
+exit
+
+Script done on Sal 07 Kas 2017 20:04:43 +03

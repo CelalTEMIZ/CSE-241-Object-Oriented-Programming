@@ -1,0 +1,8 @@
+MOV #10, 10
+MOV #10, R1
+MOV #20, 1
+PRN R1          
+SUB R1, 1      
+JPN R1, 8       
+JPN 4          
+HLT            

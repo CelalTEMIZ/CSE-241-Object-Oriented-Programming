@@ -1,0 +1,204 @@
+Script started on Cts 30 Eyl 2017 23:38:23 +03
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ exit./exe 
+
+Welcome the Connect Four Game ..
+Board Size Must Be Even Number For 4x4, 6x6, 8x8, ... 20x20 Game Boards !
+Enter Board Size : 6
+
+Select the game ..
+P > User 1(X) vs   User 2(O)
+C > User  (X) vs Computer(O) >> C
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: A
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ X  .  .  .  .  . 
+
+Computer (O) Movement: C
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ X  .  O  .  .  . 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: C
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  X  .  .  . 
+ X  .  O  .  .  . 
+
+Computer (O) Movement: C
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  .  .  . 
+ X  .  O  .  .  . 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: B
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  .  .  . 
+ X  X  O  .  .  . 
+
+Computer (O) Movement: E
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  .  .  . 
+ X  X  O  .  O  . 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: D
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  .  .  . 
+ X  X  O  X  O  . 
+
+Computer (O) Movement: D
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  O  .  . 
+ X  X  O  X  O  . 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: F
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  O  .  . 
+ X  X  O  X  O  X 
+
+Computer (O) Movement: E
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ .  .  X  O  O  . 
+ X  X  O  X  O  X 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: A
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  O  .  .  . 
+ X  .  X  O  O  . 
+ X  X  O  X  O  X 
+
+Computer (O) Movement: A
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ O  .  O  .  .  . 
+ X  .  X  O  O  . 
+ X  X  O  X  O  X 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: A
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ X  .  .  .  .  . 
+ O  .  O  .  .  . 
+ X  .  X  O  O  . 
+ X  X  O  X  O  X 
+
+Computer (O) Movement: C
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ X  .  O  .  .  . 
+ O  .  O  .  .  . 
+ X  .  X  O  O  . 
+ X  X  O  X  O  X 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: B
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ X  .  O  .  .  . 
+ O  .  O  .  .  . 
+ X  X  X  O  O  . 
+ X  X  O  X  O  X 
+
+Computer (O) Movement: F
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ X  .  O  .  .  . 
+ O  .  O  .  .  . 
+ X  X  X  O  O  O 
+ X  X  O  X  O  X 
+
+Use positions such as A.B.C.D.E.F.
+Enter User 1 (X) Movement: B
+
+ a  b  c  d  e  f  
+ .  .  .  .  .  . 
+ .  .  .  .  .  . 
+ x  .  O  .  .  . 
+ O  x  O  .  .  . 
+ X  X  x  O  O  O 
+ X  X  O  x  O  X 
+
+Game Over ..
+Winner --> User 1 (X)
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ ./exe [2Pexit./exe [2Pexit
+exit
+
+Script done on Cts 30 Eyl 2017 23:39:10 +03

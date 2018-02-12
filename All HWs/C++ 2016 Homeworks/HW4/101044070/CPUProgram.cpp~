@@ -1,0 +1,62 @@
+#include<iostream>
+#include<string>
+#include<fstream>
+
+
+#include "CPUProgram.h"
+
+
+using namespace std;
+
+CPUProgram::CPUProgram()
+{
+}
+
+CPUProgram::CPUProgram(int option)
+{
+
+    chooseOption = option;
+}
+
+CPUProgram::CPUProgram(string inputFileName)
+{
+    ReadFile(inputFileName);
+}
+
+
+void CPUProgram::ReadFile(string inputFileName)
+{
+   
+    string line;
+   
+    const char *cInputFile = inputFileName.c_str();
+    
+    ifstream inputFile (cInputFile);   
+    
+        
+    //inputFile.clear();
+    //inputFile.seekg (0, inputFile.beg);
+ 
+    int i=0;
+    while (!inputFile.eof()) {
+            getline(inputFile, line);
+            ++numberOfLine;
+            storeAllRegisters[i] = line;
+            ++i;           
+         
+        }         
+   
+  
+    inputFile.close();   
+}
+
+int CPUProgram::size()
+{
+
+  return numberOfLine;
+}
+
+string CPUProgram::getLine(int returnProgLine)
+{
+    return storeAllRegisters[returnProgLine];
+}

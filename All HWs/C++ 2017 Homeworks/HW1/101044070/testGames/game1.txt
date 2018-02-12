@@ -1,0 +1,149 @@
+Script started on Cts 30 Eyl 2017 23:25:39 +03
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ exitmake clean [7Pexitmake clean [5P./exe[C[2Pmake
+g++ -c main.cpp
+g++ -c connectFour.cpp
+g++ main.o connectFour.o -o exe
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ makeexitmake clean [5P./exe[C
+
+Welcome the Connect Four Game ..
+Board Size Must Be Even Number For 4x4, 6x6, 8x8, ... 20x20 Game Boards !
+Enter Board Size : 7 3
+
+Invalid Board Size !! 
+Board size must be even number 4x4, 6x6, 8x8, ... 20x20 !
+
+Wrong Input.Exit The Game !
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ ./exe 
+
+Welcome the Connect Four Game ..
+Board Size Must Be Even Number For 4x4, 6x6, 8x8, ... 20x20 Game Boards !
+Enter Board Size : 4
+
+Select the game ..
+P > User 1(X) vs   User 2(O)
+C > User  (X) vs Computer(O) >> P
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  .  .  . 
+ .  .  .  . 
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: A
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  .  .  . 
+ X  .  .  . 
+
+Use positions such as A.B.C.D.
+Enter User 2 (O) Movement: B
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  .  .  . 
+ X  O  .  . 
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: B
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  X  .  . 
+ X  O  .  . 
+
+Use positions such as A.B.C.D.
+Enter User 2 (O) Movement: C
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  X  .  . 
+ X  O  O  . 
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: C
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  X  X  . 
+ X  O  O  . 
+
+Use positions such as A.B.C.D.
+Enter User 2 (O) Movement: D
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  .  . 
+ .  X  X  . 
+ X  O  O  O 
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: C
+
+ a  b  c  d  
+ .  .  .  . 
+ .  .  X  . 
+ .  X  X  . 
+ X  O  O  O 
+
+Use positions such as A.B.C.D.
+Enter User 2 (O) Movement: C
+
+ a  b  c  d  
+ .  .  O  . 
+ .  .  X  . 
+ .  X  X  . 
+ X  O  O  O 
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: C
+
+> Column is full.Invalid Step !
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: D
+
+ a  b  c  d  
+ .  .  O  . 
+ .  .  X  . 
+ .  X  X  X 
+ X  O  O  O 
+
+Use positions such as A.B.C.D.
+Enter User 2 (O) Movement: D
+
+ a  b  c  d  
+ .  .  O  . 
+ .  .  X  O 
+ .  X  X  X 
+ X  O  O  O 
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: E
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: 9
+
+Use positions such as A.B.C.D.
+Enter User 1 (X) Movement: A
+
+ a  b  c  d  
+ .  .  O  . 
+ .  .  X  O 
+ x  x  x  x 
+ X  O  O  O 
+
+Game Over ..
+Winner --> User 1 (X)
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ MAKE[K[K[K[Kmake clean 
+rm *.o exe
+]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ [H[2J]0;cse241@cse241-VirtualBox: ~/Desktop/101044070[01;32mcse241@cse241-VirtualBox[00m:[01;34m~/Desktop/101044070[00m$ make clean [5P./exe[C[2Pmakeexit
+exit
+
+Script done on Cts 30 Eyl 2017 23:27:49 +03
